@@ -1,0 +1,92 @@
+.Register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    margin-left: 20%;
+
+}
+.register-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    background-color: rgba(255,255,255, 0.4);
+    min-width: 700px;
+    min-height: 410px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/* Left Side */
+.register-left{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+.register-title{
+    font-size: 40px;
+    margin: 0;
+}
+
+.register-input{
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    
+}
+.register-btn{
+    padding: 0.5rem;
+    width: 30%;
+    background: linear-gradient(.25turn, #FFA1F5, 10%, #793FDF);
+}
+.register-link{
+    display: flex;
+    justify-content: center;
+}
+.error{
+    font-size: 14px;
+    color: red;
+    margin-top: -8px;
+    box-sizing: border-box;
+    position: absolute;
+}
+.error-mess{
+    font-size: 14px;
+    color: red;
+    margin: 0;
+}
+
+/* Right Side */
+.register-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    border-left: 1px solid #757575;
+    gap: 0.5rem;
+}
+.register-logo{
+    margin-left: -2rem;
+    width: 60%;
+    height: 60%;
+    
+   
+}
+.register-web-name{
+    font-size: 60px;
+    margin-top: -3rem;
+}
+
+
+

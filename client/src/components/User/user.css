@@ -1,0 +1,27 @@
+.user-link{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+}
+
+.user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.user-avt{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.user-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
